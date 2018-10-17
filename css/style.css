@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin: 30px 0;
+    text-align: center;
+    background: #c7c775;
+}
+h3 {
+    text-align: center;
+    background: lightyellow;
+}
+article {
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*margin: 10px;*/
+}
+ol {
+    padding: 15px 0 0 35px;
+}
+li {
+    margin: 0 0 5px 0;
+    cursor: pointer;
+}
+p:hover {
+    /*background: lightgrey;*/
+}
+input[type=submit] {
+    width: 60px;
+    padding: 2px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 3px;
+    background: #e9c4c4;
+}
+input[type=text] {
+    margin: 7px 0;
+}
+
+.btn-calculator {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
